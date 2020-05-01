@@ -1,15 +1,27 @@
 ### Date created
-Include the date you created this project and README file.
+
+30/04/2020
 
 ### Project Title
-Replace the Project Title
+
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+
+Explore BikeShare data for 3 cities in the USA (New York, Chicago and Washington).
+Provide information on the following:
+
+-   Train stations
+-   Travel times
+-   Passengers
+
+The program also provides the ability to view raw data relating to the chosen city.
 
 ### Files used
-Include the files used
+
+[bikeshare.py](./bikeshare.py)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+[https://pandas.pydata.org/docs/](Pandas)
+[https://www.geeksforgeeks.org/](GeeksForGeeks)
