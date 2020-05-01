@@ -6,6 +6,12 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 
+
+def check_city_data():
+    cities = list(CITY_DATA.keys())
+    assert cities == ['chicago', 'new york city', 'washington']
+
+
 INPUT_DATA = {
     'city': {
         'data': list(CITY_DATA.keys()),
@@ -276,6 +282,12 @@ def user_stats(df):
 
 
 def main():
+    try:
+        check_city_data()
+    except AssertionError:
+        print('Cities do not match, exiting program')
+        return
+
     while True:
         city, month, day = get_filters()
 
